@@ -27,10 +27,19 @@
             </div>
             <div class="list_action flex items-center gap-7 h-full">
                 <div class="list_icon flex items-center gap-3">
-                    <a href="https://wa.me/6282325333445?text=Halo%20MUF%20Dana%2C%20saya%20ingin%20mengajukan%20pinjaman%20dengan%20jaminan%20BPKB.%0ANama%3A%20%0AAlamat%3A%20%0ANominal%20Pinjaman%3A%20%0AJenis%20Kendaraan%3A%20%0ATahun%20Kendaraan%3A%20" class="flex items-center gap-1 text-title duration-300 text-white bg-primary px-5 py-2 rounded-full">
-                        <span class="ph-bold ph-phone"></span>
-                        <span>Konsultasi</span>
-                    </a>
+                    @if (Route::has('login'))
+                        @auth
+                            <a href="{{ route('dashboard') }}" class="flex items-center gap-1 text-title duration-300 text-white bg-primary px-5 py-2 rounded-full">
+                                <span class="ph-bold ph-user"></span>
+                                <span>Dashboard</span>
+                            </a>
+                        @else
+                            <a href="https://wa.me/6282325333445?text=Halo%20MUF%20Dana%2C%20saya%20ingin%20mengajukan%20pinjaman%20dengan%20jaminan%20BPKB.%0ANama%3A%20%0AAlamat%3A%20%0ANominal%20Pinjaman%3A%20%0AJenis%20Kendaraan%3A%20%0ATahun%20Kendaraan%3A%20" class="flex items-center gap-1 text-title duration-300 text-white bg-primary px-5 py-2 rounded-full">
+                                <span class="ph-bold ph-phone"></span>
+                                <span>Konsultasi</span>
+                            </a>
+                        @endauth
+                    @endif
                 </div>
                 <button class="humburger_btn xl:hidden">
                     <span class="ph-bold ph-list text-2xl block"></span>

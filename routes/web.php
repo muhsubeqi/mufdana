@@ -16,7 +16,7 @@ Route::get('/kontak', function () {
 })->name('contact');
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('pages.back.dashboard.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
