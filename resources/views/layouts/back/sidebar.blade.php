@@ -4,15 +4,24 @@
             <span class="px-6 text-xs font-semibold text-secondary uppercase">Overviews</span>
             <ul class="list_link flex flex-col gap-2 mt-2">
                 <li>
-                    <a href="#!" class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background active">
+                    <a href="{{ route('dashboard.index') }}" class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background
+                    {{ request()->routeIs('dashboard.index') ? 'active' : '' }}">
                         <span class="ph-duotone ph-squares-four text-2xl text-secondary"></span>
                         <strong class="text-title">Dashboard</strong>
                     </a>
                 </li>
                 <li>
-                    <a href="employers-messages.html" class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background">
+                    <a href="{{ route('pages.index') }}" class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background
+                    {{ request()->routeIs('pages.index') ? 'active' : '' }}">
                         <span class="ph-duotone ph-chats text-2xl text-secondary"></span>
                         <strong class="text-title">Pages</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('brand.index') }}" class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background
+                    {{ request()->routeIs('brand.index') ? 'active' : '' }}">
+                        <span class="ph-duotone ph-chats text-2xl text-secondary"></span>
+                        <strong class="text-title">Brands</strong>
                     </a>
                 </li>
                 <li>

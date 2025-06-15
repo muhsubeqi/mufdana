@@ -40,6 +40,16 @@
 </head>
 
 <body>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0RR37SH4MV"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0RR37SH4MV');
+</script>
 <!-- Header -->
 @include('layouts.front.header')
 

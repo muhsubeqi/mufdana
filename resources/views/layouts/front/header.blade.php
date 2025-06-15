@@ -19,6 +19,11 @@
                         </a>
                     </li>
                     <li class="h-full relative">
+                        <a href="{{ route('front.brand') }}" class="flex items-center gap-1 h-full duration-300 {{ request()->routeIs('front.brand') ? 'active' : '' }}">
+                            <span class="text-title relative">Cabang Kami</span>
+                        </a>
+                    </li>
+                    <li class="h-full relative">
                         <a href="{{ route('contact') }}" class="flex items-center gap-1 h-full duration-300 {{ request()->routeIs('contact') ? 'active' : '' }}">
                             <span class="text-title relative">Kontak</span>
                         </a>
@@ -29,7 +34,7 @@
                 <div class="list_icon flex items-center gap-3">
                     @if (Route::has('login'))
                         @auth
-                            <a href="{{ route('dashboard') }}" class="flex items-center gap-1 text-title duration-300 text-white bg-primary px-5 py-2 rounded-full">
+                            <a href="{{ route('dashboard.index') }}" class="flex items-center gap-1 text-title duration-300 text-white bg-primary px-5 py-2 rounded-full">
                                 <span class="ph-bold ph-user"></span>
                                 <span>Dashboard</span>
                             </a>

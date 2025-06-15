@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('dist/output-tailwind.css') }}" />
     <link rel="stylesheet" href="{{ asset('dist/output-scss.css') }}" />
+    @stack('style')
 </head>
 
 <body class="lg:overflow-hidden">
