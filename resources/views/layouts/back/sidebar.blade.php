@@ -45,10 +45,10 @@
             <span class="px-6 text-xs font-semibold text-secondary uppercase">Management</span>
             <ul class="list_link flex flex-col gap-2 mt-2">
                 <li>
-                    <a href="employers-applicants-jobs.html"
+                    <a href="{{ route('faq.index') }}" {{ request()->routeIs('faq.index') ? 'active' : '' }}
                        class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background">
                         <span class="ph-duotone ph-notepad text-2xl text-secondary"></span>
-                        <strong class="text-title">Themes</strong>
+                        <strong class="text-title">Faq</strong>
                     </a>
                 </li>
                 <li>

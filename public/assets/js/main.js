@@ -1237,11 +1237,11 @@
     }
 
     // Text editor
-    if ($('#editor').length > 0) {
-        const quill = new Quill('#editor', {
-            theme: 'snow'
-        });
-    }
+    // if ($('#editor').length > 0) {
+    //     const quill = new Quill('#editor', {
+    //         theme: 'snow'
+    //     });
+    // }
 
     // Candidates Dashboard: My Portfolio
     var swiperListPortfolio = new Swiper(".swiper-list-portfolio", {

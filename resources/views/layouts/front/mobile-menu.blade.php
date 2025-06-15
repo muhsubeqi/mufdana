@@ -26,6 +26,11 @@
                     <span class="text-title relative">Cabang Kami</span>
                 </a>
             </li>
+            <li class="h-full relative">
+                <a href="{{ route('front.faq') }}" class="flex items-center gap-1 h-full duration-300 {{ request()->routeIs('front.faq') ? 'active' : '' }}">
+                    <span class="text-title relative">Pertanyaan</span>
+                </a>
+            </li>
             <li class="nav_item py-2">
                 <a href="{{ route('contact') }}" class="text-xl font-semibold flex items-center justify-between">
                     Kontak

@@ -24,6 +24,11 @@
                         </a>
                     </li>
                     <li class="h-full relative">
+                        <a href="{{ route('front.faq') }}" class="flex items-center gap-1 h-full duration-300 {{ request()->routeIs('front.faq') ? 'active' : '' }}">
+                            <span class="text-title relative">Pertanyaan</span>
+                        </a>
+                    </li>
+                    <li class="h-full relative">
                         <a href="{{ route('contact') }}" class="flex items-center gap-1 h-full duration-300 {{ request()->routeIs('contact') ? 'active' : '' }}">
                             <span class="text-title relative">Kontak</span>
                         </a>
