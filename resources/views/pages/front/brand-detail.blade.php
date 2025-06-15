@@ -1,6 +1,6 @@
 @extends('layouts.front.app')
 @section('title')
-    {{ $brand->name }}
+    {{ $brand->name }} | Lokasi Cabang Mufdana
 @endsection
 @section('content')
 

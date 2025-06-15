@@ -1,5 +1,5 @@
 @extends('layouts.front.app')
-@section('title', 'Home')
+@section('title', 'Gadai BPKB Mobil Motor Aman & Cepat | Mufdana')
 @section('content')
     <!-- Slider -->
     <section id="home" class="slider">

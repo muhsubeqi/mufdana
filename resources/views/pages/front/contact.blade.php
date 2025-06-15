@@ -1,5 +1,5 @@
 @extends('layouts.front.app')
-@section('title', 'Kontak')
+@section('title', 'Hubungi Kami | Konsultasi Gadai BPKB Aman di Mufdana')
 @section('content')
     <!-- map -->
     <section class="map mt-32">

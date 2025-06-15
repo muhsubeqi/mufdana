@@ -1,5 +1,5 @@
 @extends('layouts.front.app')
-@section('title', 'Pertanyaan - Informasi, cara dan syarat pengajuan pinjaman')
+@section('title', 'FAQ Mufdana – Proses Gadai BPKB, Syarat, & Ketentuan')
 @section('content')
     <!-- Breadcrumb -->
     <section class="breadcrumb">

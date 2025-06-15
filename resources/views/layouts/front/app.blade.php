@@ -6,8 +6,8 @@
     <meta name="description" content="Mufdana - Gadai BPKB Aman & Proses Cepat, Uang Cair Tanpa Ribet"/>
 
     <!-- ✅ SEO Basic -->
-    <title>@yield('title') - Mufdana</title>
-    <meta name="description" content="Gadai BPKB Aman & Proses Cepat. Ajukan pinjaman dana tunai dengan jaminan kendaraan, proses mudah dan bonus cashback. Tanpa ribet, langsung cair!"/>
+    <title>@yield('title')</title>
+    <meta name="description" content="Mufdana adalah solusi pinjaman dana cepat dengan jaminan BPKB mobil & motor. Proses aman, cepat, tanpa ribet, dan cabang tersebar di berbagai kota."/>
     <meta name="keywords" content="gadai BPKB, pinjaman dana cepat, dana tunai, jaminan BPKB, BPKB mobil, gadai motor, mufdana"/>
     <meta name="author" content="Mufdana"/>
 
@@ -19,7 +19,7 @@
 
     <!-- ✅ Open Graph (untuk Facebook & sosial media) -->
     <meta property="og:title" content="Gadai BPKB Aman & Proses Cepat - Mufdana"/>
-    <meta property="og:description" content="Ajukan pinjaman dana cepat dengan jaminan BPKB mobil atau motor. Proses mudah, aman, dan tanpa ribet. Langsung cair!"/>
+    <meta property="og:description" content="Mufdana adalah solusi pinjaman dana cepat dengan jaminan BPKB mobil & motor. Proses aman, cepat, tanpa ribet, dan cabang tersebar di berbagai kota"/>
     <meta property="og:url" content="https://www.mufdana.com"/>
     <meta property="og:image" content="{{ asset('assets/images/og-image.jpg') }}"/>
     <meta property="og:type" content="website"/>
@@ -37,6 +37,27 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"/>
     <link rel="stylesheet" href="{{ asset('dist/output-tailwind.css') }}"/>
     <link rel="stylesheet" href="{{ asset('dist/output-scss.css') }}"/>
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Mufdana",
+          "image": "https://mufdana.com/assets/images/logo.png",
+          "url": "https://mufdana.com",
+          "telephone": "+62-823-2533-3445",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Ahmad Yani No.A12 Kav A11",
+            "addressLocality": "Malang",
+            "postalCode": "65163",
+            "addressCountry": "ID"
+          },
+          "openingHours": "Mo-Fr 08:00-15:00, Sa 08:00-12:00",
+          "priceRange": "IDR"
+        }
+    </script>
+
 </head>
 
 <body>

@@ -11,6 +11,25 @@
                         <strong class="text-title">Dashboard</strong>
                     </a>
                 </li>
+{{--                <li>--}}
+{{--                    <a href="employers-bookmarks.html"--}}
+{{--                       class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background">--}}
+{{--                        <span class="ph-duotone ph-bookmarks-simple text-2xl text-secondary"></span>--}}
+{{--                        <strong class="text-title">Events</strong>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+{{--                <li>--}}
+{{--                    <a href="employers-meetings.html"--}}
+{{--                       class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background">--}}
+{{--                        <span class="ph-duotone ph-chalkboard-teacher text-2xl text-secondary"></span>--}}
+{{--                        <strong class="text-title">Blogs</strong>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+            </ul>
+        </div>
+        <div class="area mt-6">
+            <span class="px-6 text-xs font-semibold text-secondary uppercase">Management</span>
+            <ul class="list_link flex flex-col gap-2 mt-2">
                 <li>
                     <a href="{{ route('brand.index') }}" class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background
                     {{ request()->routeIs('brand.index') ? 'active' : '' }}">
@@ -18,32 +37,6 @@
                         <strong class="text-title">Brands</strong>
                     </a>
                 </li>
-                <li>
-                    <a href="{{ route('pages.index') }}" class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background
-                    {{ request()->routeIs('pages.index') ? 'active' : '' }}">
-                        <span class="ph-duotone ph-chats text-2xl text-secondary"></span>
-                        <strong class="text-title">Pages</strong>
-                    </a>
-                </li>
-                <li>
-                    <a href="employers-bookmarks.html"
-                       class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background">
-                        <span class="ph-duotone ph-bookmarks-simple text-2xl text-secondary"></span>
-                        <strong class="text-title">Events</strong>
-                    </a>
-                </li>
-                <li>
-                    <a href="employers-meetings.html"
-                       class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background">
-                        <span class="ph-duotone ph-chalkboard-teacher text-2xl text-secondary"></span>
-                        <strong class="text-title">Blogs</strong>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="area mt-6">
-            <span class="px-6 text-xs font-semibold text-secondary uppercase">Management</span>
-            <ul class="list_link flex flex-col gap-2 mt-2">
                 <li>
                     <a href="{{ route('faq.index') }}" {{ request()->routeIs('faq.index') ? 'active' : '' }}
                        class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background">

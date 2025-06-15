@@ -1,5 +1,5 @@
 @extends('layouts.front.app')
-@section('title', 'Cabang kami')
+@section('title', 'Lokasi Cabang Mufdana | Gadai BPKB Terdekat & Terpercaya')
 @section('content')
     <!-- Breadcrumb -->
     <section class="breadcrumb">
