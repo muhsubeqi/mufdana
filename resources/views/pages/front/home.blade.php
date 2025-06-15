@@ -77,7 +77,7 @@
                     <p class="body2 text-secondary mt-3">Temukan produk pinjaman yang sesuai dengan kebutuhan Anda</p>
                 </div>
             </div>
-            <ul class="list grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7.5 md:mt-10 mt-7">
+            <ul class="list grid xl:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-7.5 md:mt-10 mt-7">
                 <li class="category_item h-full animate animate_top" style="--i: 1">
                     <a href="javascript:void(0)"
                        class="category_inner block h-full p-10 rounded-20 bg-white shadow-md duration-300 hover:shadow-xl">
@@ -96,16 +96,6 @@
                             <h5 class="heading5 duration-300 hover:text-primary">Pembiayaan Berjaminan BPKB Motor</h5>
                         </div>
                         <p class="desc mt-3 text-secondary">Dapatkan pinjaman dengan jaminan kendaraan, proses mudah, cepat dan tenor maksimal hingga 24Bulan.</p>
-                    </a>
-                </li>
-                <li class="category_item h-full animate animate_top" style="--i: 3">
-                    <a href="javascript:void(0)"
-                       class="category_inner block h-full p-10 rounded-20 bg-white shadow-md duration-300 hover:shadow-xl">
-                        <div class="flex items-center gap-3">
-                            <span class="icon-writing flex-shrink-0 text-4xl"></span>
-                            <h5 class="heading5 duration-300 hover:text-primary">Pembiayaan Berjaminan Sertifikat Rumah</h5>
-                        </div>
-                        <p class="desc mt-3 text-secondary">Dapatkan pinjaman dengan bunga yang rendah dan tenor pinjaman panjang hingga 84Bulan.</p>
                     </a>
                 </li>
             </ul>

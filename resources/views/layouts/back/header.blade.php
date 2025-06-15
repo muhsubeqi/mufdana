@@ -95,7 +95,11 @@
                 </ul>
             </div>
             <button class="humburger_btn min-[1400px]:hidden">
-                <span class="ph-bold ph-list text-white text-2xl block"></span>
+{{--                <span class="ph-bold ph-list text-white text-2xl block"></span>--}}
+                <button class="btn_open_popup btn_menu_dashboard flex items-center gap-2 lg:hidden" data-type="menu_dashboard">
+                    <span class="ph ph-squares-four text-2xl blockl"></span>
+                    <strong class="text-button">Menu</strong>
+                </button>
             </button>
         </div>
     </div>

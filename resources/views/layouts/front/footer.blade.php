@@ -41,10 +41,6 @@
                         <li>
                             <a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300"
                                href="javascript:void(0)">Pembiayaan Berjaminan BPKB Motor</a></li>
-                        <li>
-                            <a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300"
-                               href="javascript:void(0)">Pembiayaan Berjaminan Sertifikat Rumah</a>
-                        </li>
                     </ul>
                 </div>
                 <div class="footer_nav max-xl:w-full">

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\BrandsController;
 use Illuminate\Support\Facades\Route;
@@ -28,11 +29,12 @@ Route::prefix('front')->name('front.')->group(function () {
     })->name('brand.detail');
 });
 
-Route::get('/dashboard', function () {
-    return view('pages.back.dashboard.index');
-})->middleware(['auth', 'verified'])->name('dashboard.index');
+Route::middleware('auth', 'verified')->group(function () {
 
-Route::middleware('auth')->group(function () {
+    Route::prefix('dashboard')->name('dashboard.')->group(function () {
+        Route::get('/', [DashboardController::class, 'index'])->name('index');
+    });
+
 
     Route::resource('pages', PagesController::class);
 
